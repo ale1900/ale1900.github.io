@@ -40,10 +40,41 @@
                 href="#receta">Receta <i class="fas fa-star"></i></a></li>
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
               href="#contact">Contacto</a></li>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Plantilla de Cortadores
+              </button>
+              
         </ul>
       </div>
     </div>
   </nav>
+  <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Plantilla de Cortadores</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+          <img class="img-fluid" src="/assets/img/plantilla_cortadores.jpg" alt="" /> 
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+          <form method="get" action="/assets/img/plantilla_cortadores.jpg">
+              <button type="button" class="btn btn-info">Descargar!</button>
+           </form>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
   <!-- Masthead-->
   <header class="masthead bg-primary text-white text-center" id="home">
     <div class="container d-flex align-items-center flex-column">
